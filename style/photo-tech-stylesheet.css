@@ -11,6 +11,10 @@
   height:100px;
 }
 
+.banner a{
+  text-decoration: none;
+  color: white;
+}
 .banner p:nth-child(1){
   font-family: 'Allerta Stencil', sans-serif;
   font-size: 35px;

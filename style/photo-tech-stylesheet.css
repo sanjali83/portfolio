@@ -1,0 +1,180 @@
+*{
+  box-sizing : border-box;
+  padding :0;
+  margin: 0;
+}
+.wrapper{
+  width:100%;
+  }
+.pagebanner{
+  background:orange;
+  height:100px;
+}
+
+.banner p:nth-child(1){
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 35px;
+  position: absolute;
+  top: 30px;
+}
+.banner p:nth-child(2){
+  padding-left: 5px;
+  background: #cc5200;
+  width: 80px;
+  color: white;
+  position:absolute;
+  top:10px;
+  right:220px;
+}
+.banner p:nth-child(3){
+  background: #cc5200;
+  width: 100px;
+  color: white;
+  position:absolute;
+  top:10px;
+  right:120px;
+}
+.banner p:nth-child(4){
+  background: #cc5200;
+  width: 80px;
+  color: white;
+  position:absolute;
+  top:10px;
+  right:40px;
+}
+
+
+/*main body stylesheet*/
+
+.mainbody{
+  display: flex;
+}
+.main-content{
+  width : 70%;
+  }
+
+  .image img {
+    width : 150px;
+    float:left;
+    }
+    padding-right : 10px;
+
+  .image img:hover{
+    opacity: 0.5;
+  }
+  .para{
+    background: #e6f2ff;
+    height:170px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:10px;
+  }
+  .link{
+    position : relative;
+    left : 800px;
+    font-size : 15px;
+    transition-delay: 0.1s;
+    transition-duration:0.5s;
+    transition-property:font-size;
+  }
+
+  .link:hover{
+    font-size:25px;
+    text-decoration: underline;
+  }
+
+  .main-content h2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color : blue;
+    font-size: 25px;
+    transition-delay: 0.1s;
+    transition-duration:2s;
+    transition-property:all;
+    }
+
+  .main-content h2:hover{
+    font-style:italic;
+    color:red;
+  }
+
+  a{
+    text-decoration:none;
+    color :#664400;
+    font-size:14px;
+  }
+
+  .aside-content{
+    width : calc(30% - 100px);
+    background : #e6f2ff;
+    margin-left:80px;
+    margin-top:10px;
+    }
+  .aside-content h3{
+    margin-left:10px;
+  }
+  .aside-content ul{
+    margin-left:20px;
+    list-style-type: none;
+  }
+  .aside-content Ul li:nth-child(1){
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+  .aside-content Ul li{
+    padding-bottom: 10px;
+  }
+  .aside-content ul li:hover{
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .aside-content img{
+    width: 300px;
+  }
+  .aside-content h2{
+    margin-left:20px;
+  }
+  .aside-content img{
+    margin-left:20px;
+    transition-property: filter;
+    transition-delay: 0.01s;
+    transition-duration: 1s;
+  }
+  .aside-content img:hover{
+    filter:grayscale(100%);
+  }
+
+  /*footer stylesheet*/
+
+.pagefooter{
+  background: red;
+  height : 60px;
+ color:black;
+}
+.pagefooter p a{
+  text-decoration: none;
+  color: black;
+}
+
+.pagefooter p:nth-child(1){
+  color: black;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+.pagefooter a:hover{
+  color : blue;
+}
+
+
+.pagefooter{
+  display: flex;
+  padding-top: 10px;
+}
+
+.pagefooter p{
+  font-size: 40px;
+  padding-right: 10px;
+}
+.pagefooter a{
+  font-size: 40px;
+}
